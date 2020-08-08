@@ -3,19 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 未央的Hexo博客
-subtitle: ''
-description: ''
-keywords:
-author: sheen song
-language: cn
+title: 未央博客
+subtitle: '欢迎来到IT届文艺小青年的博客'
+description: '欢迎来到IT届文艺小青年的博客'
+keywords: '未央'
+author: sheen
+language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://www.sheensong.top
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year-:month-:day/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -29,7 +29,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: [others/**, ASUS/**]
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -63,8 +63,8 @@ index_generator:
 
 # Category & Tag
 default_category: uncategorized
-category_map:
-tag_map:
+category_map: categories
+tag_map: tag
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
@@ -87,8 +87,8 @@ pagination_dir: page
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
 include:
-exclude:
-ignore:
+exclude: 
+ignore: [others/**, ASUS/**]       # Ignore 'others' and 'ASUS' folder in 'source/' only.
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
@@ -100,4 +100,33 @@ theme: ayer
 deploy:
   type: 'git'
   repository: git@github.com:sheenisme/sheenisme.github.io.git
-  branch: master
+  branch: gh-pages
+  
+
+# rss，安装hexo-generator-feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 100
+    
+# 搜索，安装hexo-generator-searchdb
+search:
+  path: search.xml
+  field: post
+  format: html
+
+# sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+# aplayer
+aplayer:
+  meting: true
+
+# hexo-admin authentification
+admin:
+  username: sheen
+  password_hash: $2a$10$DccGvuF6pWb.j2QkOxbNmupJp9bF2XyCxno9P9t7X/pPvJTXhyzNy
+  secret: sheenisme
