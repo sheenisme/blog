@@ -2,6 +2,7 @@
 title: '[学习笔记]-Linux常用命令'
 tags:
   - Linux
+categories:
   - 学习笔记
 id: '480'
 date: 2020-06-08 09:10:24
@@ -16,6 +17,8 @@ date: 2020-06-08 09:10:24
 　　2.1、ps -ef | grep xxx
 
 　　2.2、ps -aux | grep xxx（-aux显示所有状态）
+
+<!--more-->
 
 ##### 3、杀掉进程
 

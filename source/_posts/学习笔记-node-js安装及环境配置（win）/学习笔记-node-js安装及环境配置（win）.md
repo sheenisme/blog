@@ -1,15 +1,16 @@
+---
 title: '[学习笔记]-Node.js安装及环境配置（win）'
 tags:
   - JavaScript
   - JS
+categories:
   - 学习笔记
-  - 学习笔记
-  - 这是真正的技术
 id: '516'
 date: 2020-06-24 22:05:52
+
 ---
-Node.js安装及环境配置之Windows篇
------------------------
+
+### Node.js安装及环境配置之Windows篇
 
 ##### 一、安装环境
 
@@ -41,41 +42,41 @@ Node.js安装及环境配置之Windows篇
 
 > PS：nodejs中文网下面直接有阿里镜像源，可以点进那个里面下载，速度提升好几倍。
 
-![](http://www.sheensong.top/wordpress/wp-content/uploads/2020/06/2267589-bb1555667d5355af.png)
+![](%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-node-js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%88win%EF%BC%89/2267589-bb1555667d5355af.png)
 
 ##### 四、开始安装
 
 1、下载完成后，双击“node-v6.9.2-x64.msi”，开始安装Node.js
 
-![](http://www.sheensong.top/wordpress/wp-content/uploads/2020/06/2267589-131af95ee6ebc811.png)
+![](%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-node-js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%88win%EF%BC%89/2267589-131af95ee6ebc811.png)
 
 点击【Next】按钮
 
-![](http://www.sheensong.top/wordpress/wp-content/uploads/2020/06/2267589-69648c7b8aa496fe.png)
+![](%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-node-js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%88win%EF%BC%89/2267589-69648c7b8aa496fe.png)
 
 勾选复选框，点击【Next】按钮
 
-![](http://www.sheensong.top/wordpress/wp-content/uploads/2020/06/2267589-b87cc08121e1c880.png)
+![](%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-node-js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%88win%EF%BC%89/2267589-b87cc08121e1c880.png)
 
 修改好目录后，点击【Next】按钮
 
-![](http://www.sheensong.top/wordpress/wp-content/uploads/2020/06/2267589-f40b21a6ccbebefa.png)
+![](%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-node-js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%88win%EF%BC%89/2267589-f40b21a6ccbebefa.png)
 
-![](http://www.sheensong.top/wordpress/wp-content/uploads/2020/06/2267589-3a9b3706c81fb5fa.png)
+![](%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-node-js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%88win%EF%BC%89/2267589-3a9b3706c81fb5fa.png)
 
 安装完后点击【Finish】按钮完成安装
 
-![](http://www.sheensong.top/wordpress/wp-content/uploads/2020/06/2267589-adca4baa7f0d7190.png)
+![](%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-node-js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%88win%EF%BC%89/2267589-adca4baa7f0d7190.png)
 
 至此Node.js已经安装完成，可以先进行下简单的测试安装是否成功了，后面还要进行环境配置 在键盘按下【win+R】键，输入cmd，然后回车，打开cmd窗口
 
-![](http://www.sheensong.top/wordpress/wp-content/uploads/2020/06/2267589-19531194e378a38a.png)
+![](%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-node-js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%88win%EF%BC%89/2267589-19531194e378a38a.png)
 
-![](http://www.sheensong.top/wordpress/wp-content/uploads/2020/06/2267589-2c9ced41baca7c1e.png)
+![](%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-node-js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%88win%EF%BC%89/2267589-2c9ced41baca7c1e.png)
 
 安装完后的目录如下图所示：
 
-![](http://www.sheensong.top/wordpress/wp-content/uploads/2020/06/2267589-261e36d32bc47133.png)
+![](%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-node-js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%88win%EF%BC%89/2267589-261e36d32bc47133.png)
 
 此处说明下：新版的Node.js已自带npm，安装Node.js时会一起安装，npm的作用就是对Node.js依赖的包进行管理，也可以理解为用来安装/卸载Node.js需要装的东西
 
@@ -83,28 +84,28 @@ Node.js安装及环境配置之Windows篇
 
 **说明：这里的环境配置主要配置的是npm安装的全局模块所在的路径，以及缓存cache的路径，之所以要配置，是因为以后在执行类似：npm install express \[-g\] （后面的可选参数-g，g代表global全局安装的意思）的安装语句时，会将安装的模块安装到【C:\\Users\\用户名\\AppData\\Roaming\\npm】路径中，占C盘空间。** **例如：我希望将全模块所在路径和缓存路径放在我node.js安装的文件夹中，则在我安装的文件夹【D:\\Develop\\nodejs】下创建两个文件夹【node\_global】及【node\_cache】如下图：**
 
-![](http://www.sheensong.top/wordpress/wp-content/uploads/2020/06/2267589-51ed23771f3a86e2.png)
+![](%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-node-js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%88win%EF%BC%89/2267589-51ed23771f3a86e2.png)
 
 创建完两个空文件夹之后，打开cmd命令窗口，输入
 
 npm config set prefix "D:\\Develop\\nodejs\\node\_global"  
 npm config set cache "D:\\Develop\\nodejs\\node\_cache"
 
-![](http://www.sheensong.top/wordpress/wp-content/uploads/2020/06/2267589-e22cf1b878275757.png)
+![](%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-node-js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%88win%EF%BC%89/2267589-e22cf1b878275757.png)
 
 接下来设置环境变量，关闭cmd窗口，“我的电脑”-右键-“属性”-“高级系统设置”-“高级”-“环境变量”
 
-![](http://www.sheensong.top/wordpress/wp-content/uploads/2020/06/2267589-7fd332c898799325.png)
+![](%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-node-js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%88win%EF%BC%89/2267589-7fd332c898799325.png)
 
 进入环境变量对话框，在【系统变量】下新建【NODE\_PATH】，输入【D:\\Develop\\nodejs\\node\_global\\node\_modules】，将【用户变量】下的【Path】修改为【D:\\Develop\\nodejs\\node\_global】
 
-![](http://www.sheensong.top/wordpress/wp-content/uploads/2020/06/2267589-ca94af8646fab0b4.png)
+![](%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-node-js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%88win%EF%BC%89/2267589-ca94af8646fab0b4.png)
 
-![](http://www.sheensong.top/wordpress/wp-content/uploads/2020/06/2267589-d469f4d79081582a.png)
+![](%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-node-js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%88win%EF%BC%89/2267589-d469f4d79081582a.png)
 
-![](http://www.sheensong.top/wordpress/wp-content/uploads/2020/06/2267589-f46d2598f3d53958.png)
+![](%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-node-js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%88win%EF%BC%89/2267589-f46d2598f3d53958.png)
 
-![](http://www.sheensong.top/wordpress/wp-content/uploads/2020/06/2267589-3c48768a577428f5.png)
+![](%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-node-js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%88win%EF%BC%89/2267589-3c48768a577428f5.png)
 
 ##### 六、更换阿里镜像源
 
@@ -120,7 +121,7 @@ npm config get registry
 
 切换成功后，显示结果如下：
 
-![](http://www.sheensong.top/wordpress/wp-content/uploads/2020/06/image-20200624215523139-1.png)
+![](%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-node-js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%88win%EF%BC%89/image-20200624215523139-1.png)
 
 ##### 七、测试
 
@@ -128,7 +129,7 @@ npm config get registry
 
 npm install express -g     # -g是全局安装的意思
 
-![](http://www.sheensong.top/wordpress/wp-content/uploads/2020/06/2267589-fb7a6e61c1b99541.png)
+![](%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-node-js%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%88win%EF%BC%89/2267589-fb7a6e61c1b99541.png)
 
 原文链接（本文加了换源）：[https://www.cnblogs.com/zhouyu2017/p/6485265.html](https://www.cnblogs.com/zhouyu2017/p/6485265.html)
 
