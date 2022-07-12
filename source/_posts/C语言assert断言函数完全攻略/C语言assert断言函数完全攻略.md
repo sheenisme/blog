@@ -2,6 +2,7 @@
 title: C语言assert断言函数完全攻略
 tags:
   - 笔试面经
+  - C/C++编程
 categories:
   - 学习笔记
 date: 2021-09-15 14:51:15

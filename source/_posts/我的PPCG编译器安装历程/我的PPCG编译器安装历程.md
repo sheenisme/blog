@@ -4,6 +4,7 @@ tags:
   - PPCG
 categories:
   - 学习笔记
+  - 安装小记
 date: 2021-09-23 11:30:11
 ---
 
