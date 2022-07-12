@@ -55,4 +55,5 @@ hexo server #启动hexo服务，可以用hexo s缩写。浏览器输入localhost
 
 个人简历：[cv.sheensong.top](http://cv.sheensong.top)（已过时，暂未更新）
 
-[备案号/许可证编号：豫ICP备17001354号](
+备案号/许可证编号：[豫ICP备17001354号](https://beian.miit.gov.cn/)
+
