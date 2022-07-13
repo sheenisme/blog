@@ -355,7 +355,7 @@ https://doi.org/10.1145/1250734.1250761
 
 ---
 
-翻译的PDF文档和PPT开源地址：
+文献、翻译的PDF文档和分享PPT开源地址：https://gitee.com/sheenisme/blog_sources_hexo/tree/main/source/_posts/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB03-%E6%A8%A1%E6%9D%BF%E8%AE%A1%E7%AE%97%E7%9A%84%E6%9C%89%E6%95%88%E8%87%AA%E5%8A%A8%E5%B9%B6%E8%A1%8C%E5%8C%96/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB03-Effective%20automatic%20parallelization%20of%20stencil%20computations
 
 write by sheen song
 

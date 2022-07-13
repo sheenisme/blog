@@ -764,6 +764,6 @@ Vasilache等人已经提出了在AST生成器中进行多面展开的功能（�
 
 ---
 
-翻译的PDF文档和PPT开源地址：
+文献、翻译的PDF文档和分享PPT开源地址：https://gitee.com/sheenisme/blog_sources_hexo/tree/main/source/_posts/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB04-%E5%A4%9A%E9%9D%A2%E4%BD%93%E6%8A%BD%E8%B1%A1%E8%AF%AD%E6%B3%95%E6%A0%91%E7%9A%84%E7%94%9F%E6%88%90%E4%B8%8D%E4%BB%85%E4%BB%85%E6%98%AF%E6%89%AB%E6%8F%8F%E5%A4%9A%E9%9D%A2%E4%BD%93/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB04-Polyhedral%20AST%20generation%20is%20more%20than%20scanning%20polyhedra
 
 write by sheen song
