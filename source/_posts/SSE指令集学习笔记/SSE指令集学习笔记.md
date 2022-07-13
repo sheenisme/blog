@@ -33,9 +33,11 @@ date: 2021-05-09 15:15:15
 5. Movhlps
    movhlps XMM,XMM
    把源寄存器高64位送入目的寄存器低64位,高64位不变.
+```
 
-   <!--more-->	
+<!--more-->	
 
+```
 6. Movlhps
    movlhps XMM,XMM
    把源寄存器低64位送入目的寄存器高64位,低64位不变.
