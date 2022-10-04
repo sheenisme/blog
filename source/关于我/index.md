@@ -35,6 +35,7 @@ date: 2020-08-07 22:38:12
 
 [weblog.sheensong.top](http://weblog.sheensong.top)(国外Github+CNAME解析)
 
-个人简历：[cv.sheensong.top](http://cv.sheensong.top)（已过时，暂未更新）
+个人简历：[cv.sheensong.top](http://cv.sheensong.top)（更新于2022.10.4）
 
 备案号/许可证编号：[豫ICP备17001354号](https://beian.miit.gov.cn/)
+
