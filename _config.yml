@@ -93,7 +93,7 @@ ignore: [LOVE/**, ASUS/**, CV/**]       # Ignore 'others' and 'ASUS' folder in '
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: ayer
+theme: my-ayer-theme
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
