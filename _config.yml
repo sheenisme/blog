@@ -127,6 +127,7 @@ aplayer:
 
 # hexo-admin authentification
 admin:
+  deployCommand: "./hexo-deploy.sh"
   username: sheen
   password_hash: $2a$10$DccGvuF6pWb.j2QkOxbNmupJp9bF2XyCxno9P9t7X/pPvJTXhyzNy
   secret: sheenisme

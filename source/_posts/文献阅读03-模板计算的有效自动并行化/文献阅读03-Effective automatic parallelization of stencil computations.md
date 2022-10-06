@@ -1,16 +1,15 @@
----
-title: '文献阅读03-模板计算的有效自动并行化'
+title: 文献阅读03-模板计算的有效自动并行化
 tags:
+  - 多面体模型
+  - Polly
   - 模板计算
   - Stencil Computations
   - 自动并行化
   - Automatic Parallelization
-  - 多面体模型
-  - Polly
 categories:
   - 学习笔记
   - 文献阅读
-date: 2020-11-03 10:16:53
+date: 2020-11-03 10:16:00
 ---
 
 ## [文献阅读03]-模板计算的有效自动并行化
