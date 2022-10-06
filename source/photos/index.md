@@ -1,3 +1,4 @@
+---
 title: Photos
 type: photos
 layout: photos

@@ -29,11 +29,11 @@ date: 2020-08-07 22:38:12
 >
 > ~~sheen~~   我
 
-网站主页：[sheensong.top](http://www.sheensong.top/)(因服务器用于科研，主页暂时关闭)
+个人主页：[sheensong.top](http://sheensong.top/)
 
-博客主页：[blog.sheensong.top](http://blog.sheensong.top)（国内gitee+URL转发）
+博客：[blog.sheensong.top](http://blog.sheensong.top)（国内gitee+URL转发【gitee提示我博客包含违规内容，给我禁了，emmm......，反正挺无语的】）
 
-[weblog.sheensong.top](http://weblog.sheensong.top)(国外Github+CNAME解析)
+[weblog.sheensong.top](http://weblog.sheensong.top)(国外Github+CNAME解析【可用，但国内访问较慢】)
 
 个人简历：[cv.sheensong.top](http://cv.sheensong.top)（更新于2022.10.4）
 
