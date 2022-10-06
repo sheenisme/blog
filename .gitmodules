@@ -1,0 +1,3 @@
+[submodule "themes/my-ayer-theme"]
+	path = themes/my-ayer-theme
+	url = https://github.com/sheenisme/my-ayer-theme.git
