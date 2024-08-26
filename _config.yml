@@ -4,16 +4,16 @@
 
 # Site
 title: 未央de博客
-subtitle: '欢迎来到IT届文艺小青年未央的博客'
-description: '欢迎来到IT届文艺小青年未央的博客'
+subtitle: '欢迎来到未央de博客'
+description: '欢迎来到未央de博客'
 keywords: '未央'
 author: sheen
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://blog.sheensong.top
+url: https://sheensong.top/blog
 root: /
 permalink: :year/:month/:day/:name/
 permalink_defaults: 2020/08/01/default
@@ -99,8 +99,8 @@ theme: my-ayer-theme
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: 'git'
-  repository: [git@github.com:sheenisme/sheenisme.github.io.git, git@gitee.com:sheenisme/sheenisme.git]
-  branch: master
+  repository: git@github.com:sheenisme/blog.git
+  branch: main
   
 
 # rss，安装hexo-generator-feed
