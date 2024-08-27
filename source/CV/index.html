@@ -29,17 +29,16 @@
 			<p>
 				<span>
 					<!-- 姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名:&nbsp;&nbsp;&nbsp;&nbsp;宋广辉<br /> -->
-					年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;龄:&nbsp;&nbsp;&nbsp;&nbsp;25<br />
-					手&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机:&nbsp;&nbsp;&nbsp;&nbsp;15225158238<br />
+					年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;龄:&nbsp;&nbsp;&nbsp;&nbsp;27<br />
 					邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱:&nbsp;&nbsp;&nbsp;&nbsp;sheensong@163.com<br />
-					个人博客:&nbsp;&nbsp;&nbsp;&nbsp;blog.sheensong.top<br />
 					&nbsp;GitHub&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;sheenisme<br />
 					户&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;籍:&nbsp;&nbsp;&nbsp;&nbsp;河南 商丘<br />
-					<!-- 所在城市： 河南 郑州<br /> -->
-					目前状态:&nbsp;&nbsp;&nbsp;&nbsp;应届毕业生<br />
+					所在城市:&nbsp;&nbsp;&nbsp;&nbsp;湖南长沙<br />
+					目前状态:&nbsp;&nbsp;&nbsp;&nbsp;在读博士生<br />
+					个人博客:&nbsp;&nbsp;&nbsp;&nbsp;https://sheensong.top/blog<br />
 					<!-- 工作年限： 	未毕业<br/> -->
 					<!-- 政治面貌：  共青团员<br/> -->
-					求职意向:&nbsp;&nbsp;&nbsp;&nbsp;<b>编译器开发工程师</b><br />
+					求职意向:&nbsp;&nbsp;&nbsp;&nbsp;<b>编译器研发工程师</b><br />
 				</span>
 			</p>
 		</div>
@@ -51,6 +50,41 @@
 
 		<!--EDUCATION-->
 		<ul id="schools">
+			<li>
+				<div class="details">
+					<h3>
+						<font>
+							<font>湖南大学</font>
+						</font>
+					</h3>
+					<h4>
+						<font>
+							<font><b><a href="http://csee.hnu.edu.cn/home.htm" target="_blank"
+										title="湖南大学 信息科学与工程学院">信息科学与工程学院</a></b></font>
+						</font>
+					</h4>
+					<h4>
+						<font>
+							<font>博士 - 计算机科学与技术</font>
+						</font>
+					</h4>
+					<h4>
+						<font>
+							<font>2024年 - 至今</font>
+						</font>
+					</h4>
+				</div>
+				<p>
+					<font>
+						<font>研究方向：<b>先进编译和高性能计算。</b><br />
+							师从<b><a href="https://yaozhujia.github.io" target="_blank"
+								   title="赵捷教授">赵捷教授</a></b>, 主要研究分布式编译系统相关工作，读博ing<br />
+						</font>
+					</font>
+				</p>
+			</li>
+			<li></li>
+
 			<li>
 				<div class="details">
 					<h3>
@@ -166,7 +200,17 @@
 				</li>
 				<li>
 					<font>
-						<font>熟悉超越函数实现与精度调整的典型算法</font>
+						<font>熟悉在国产的硬件平台基于MLIR进行端到端编译</font>
+					</font><br>
+				</li>
+				<li>
+					<font>
+						<font>熟悉将UniAD等智驾算法在通用平台以及国产平台上的算子开发和优化等相关工作</font>
+					</font><br>
+				</li>
+				<li>
+					<font>
+						<font>熟悉LLVM、isl库、PPCG等编译框架和工具</font>
 					</font><br>
 				</li>
 				<li>
@@ -176,7 +220,7 @@
 				</li>
 				<li>
 					<font>
-						<font>熟悉LLVM、isl库、PPCG等编译框架和工具</font>
+						<font>熟悉超越函数实现与精度调整的典型算法</font>
 					</font><br>
 				</li>
 				<li>
@@ -194,6 +238,22 @@
 
 		<!--EXPERIENCE-->
 		<ul id="jobs">
+			<li>
+				<div class="details">
+					<h3>上海理想汽车科技有限公司</h3>
+					<h4>正式员工</h4>
+					<h4>研发工程师</h4>
+					<h4>2023年7月 - 2024年8月</h4>
+				</div>
+				<p> 主要负责AI编译器和算子开发的相关工作，具体有以下四个方面：<br />
+					1、芯片架构师合作，协助芯片架构设计，参与制定芯片软硬件协作方案；<br />
+					2、参与AI算子库的开发和优化，支撑算法所需算子的功能和基本性能要求；<br />
+					3、参与AI编译器的设计研发，由AI编译器将算法模型和算子库编译成AI芯片的可执行文件；<br />
+					4、维护AI编译器和算子库，解决在Virtual platform、RTL simulation、FPGA验证中发现软件功能或性能问题。<br />
+				</p>
+			</li>
+			<li></li>
+
 			<li>
 				<div class="details">
 					<h3>北京清醒异构科技有限公司</h3>
@@ -218,9 +278,12 @@
 				</div>
 				<p> 1、利用多面体模型将混合精度应用到了Stencil计算中, 在调度树表示的IR层进行优化, 实现了一个源到源的自动混合精度优化器。<br />
 					2、以软件模拟的方式实现了对特定循环嵌套的自动混合精度计算, 通过数据流分析最小化了强制类型转换开销。<br />
-					3、在x86平台上几何平均加速达1.15倍,高于单精度; 在申威平台上几何平均加速达1.2倍; 对应文章已录用至<a
-						href="http://www.jos.org.cn/jos/article/abstract/md001" target="_blank"
-						title="面向Stencil计算的自动混合精度优化">软件学报</a>。<br />
+					3、在x86平台上几何平均加速达1.15倍,高于单精度; 在申威平台上几何平均加速达1.2倍; 对应文章已录用至
+					<a href="http://www.jos.org.cn/jos/article/abstract/md001" target="_blank"
+					   title="面向Stencil计算的自动混合精度优化">软件学报</a>和
+					<a href="https://dl.acm.org/doi/10.1145/3627535.3638484" target="_blank"
+					   title="A Holistic Approach to Automatic Mixed-Precision Code Generation and Tuning for Affine Programs">PPoPP 2024</a>
+					国际顶级会议上。<br />
 				</p>
 			</li>
 			<li></li>
@@ -304,7 +367,7 @@
 
 		<div class="clear"></div>
 		<!--AS SEEN ON TITLE-->
-		<h2 id="eye" class="sectionHead">作&nbsp;&nbsp;品</h2>
+		<h2 id="eye" class="sectionHead">论&nbsp;&nbsp;文</h2>
 
 		<!--AS SEEN ON-->
 		<ul id="seenOn">
@@ -316,9 +379,42 @@
 			<li class="paper">
 				<h3>
 					<font>
+						<a href="https://dl.acm.org/doi/10.1145/3627535.3638484" target="_blank"
+							title="A Holistic Approach to Automatic Mixed-Precision Code Generation and Tuning for Affine Programs">A Holistic Approach to Automatic Mixed-Precision Code Generation and Tuning for Affine Programs</a> - PPoPP 2024
+					</font>
+					<br />
+
+					<!-- <font>
+						<a href="https://www.researchgate.net/publication/372396781_Arfa_An_Agile_Regime-Based_Floating-Point_Optimization_Approach_for_Rounding_Errors" target="_blank"
+							title="Arfa: An Agile Regime-Based Floating-Point Optimization Approach for Rounding Errors">Arfa: An Agile Regime-Based Floating-Point Optimization Approach for Rounding Errors</a> - ISSTA 2024
+					</font>
+					<br /> -->
+
+					<font>
+						<a href="https://doi.org/10.1109/ASE56229.2023.00139" target="_blank"
+							title="Eiffel: Inferring Input Ranges of Significant Floating-point Errors via Polynomial Extrapolation">Eiffel: Inferring Input Ranges of Significant Floating-point Errors via Polynomial Extrapolation</a> - ASE 2023
+					</font>
+					<br />
+
+					<font>
 						<a href="http://www.jos.org.cn/jos/article/abstract/md001" target="_blank"
 							title="面向Stencil计算的自动混合精度优化">面向Stencil计算的自动混合精度优化</a> - 软件学报
 					</font>
+					<br />
+
+					<font>
+						<a href="http://joces.nudt.edu.cn/CN/Y2023/V45/I09/1532" target="_blank"
+							title="RISC-V基础数学库性能优化 ">RISC-V基础数学库性能优化 </a> - 计算机科学与工程
+					</font>
+					<br />
+
+					<font>
+						<a href="https://www.ejournal.org.cn/CN/10.12263/DZXB.20220375" target="_blank"
+							title="面向RISC-V的基础数学库实现">面向RISC-V的基础数学库实现</a> - 电子学报
+					</font>
+					<br />
+
+					
 				</h3>
 			</li>
 		</ul>
@@ -335,6 +431,11 @@
 			<li>
 				<font>
 					<font><b>获国家励志奖学金</b></font>
+				</font>
+			</li>
+			<li>
+				<font>
+					<font><b>获学业奖学金 一等奖</b></font>
 				</font>
 			</li>
 			<li>
@@ -397,6 +498,11 @@
 					<font>获 “优秀共青团员” 称号</font>
 				</font>
 			</li>
+			<li>
+				<font>
+					<font>获理想汽车 “主动积极 先进个人” 称号</font>
+				</font>
+			</li>
 		</ul>
 		<!--end honorsAwards-->
 
@@ -437,7 +543,7 @@
 	<!--end wrapper-->
 
 	<!--COPYRIGHT-->
-	<div id="copyright">&copy; 2020 - Designed and developed by
+	<div id="copyright">&copy; 2024 - Designed and developed by
 		<a href="https://sheenisme.gitee.io/%E5%85%B3%E4%BA%8E%E6%88%91/" target="_blank" title="sheenisme">sheen
 			song</a>.
 	</div>
