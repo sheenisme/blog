@@ -100,8 +100,8 @@ theme: my-ayer-theme
 deploy:
   type: 'git'
   repository: git@github.com:sheenisme/blog.git
-  branch: main
-  
+  branch: github-pages
+
 
 # rss，安装hexo-generator-feed
 feed:
