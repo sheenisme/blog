@@ -21,7 +21,7 @@ npx hexo generate #生成静态文章，可以用 hexo g缩写
 npx hexo server #启动hexo服务，可以用hexo s缩写。浏览器输入localhost:4000就可以看到你生成的博客
 ```
 
-3. Using hexo in Local Machine
+3. Push blog to github
 
 ```bash
 git add .
