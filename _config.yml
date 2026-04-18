@@ -29,7 +29,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render: [LOVE/**, ASUS/**, CV/**]
+skip_render: [LOVE/**, ASUS/**]
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -87,8 +87,9 @@ pagination_dir: page
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
 include:
-exclude: 
-ignore: [LOVE/**, ASUS/**, CV/**]       # Ignore 'others' and 'ASUS' folder in 'source/' only.
+exclude:
+  - "CV/**" # Do not emit /blog/CV/; see CV on https://sheensong.top/academic/
+ignore: [LOVE/**, ASUS/**]       # Skip LOVE and ASUS trees under source/
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
@@ -103,13 +104,13 @@ deploy:
   branch: github-pages
 
 
-# rss，安装hexo-generator-feed
+# RSS: requires hexo-generator-feed
 feed:
   type: atom
   path: atom.xml
   limit: 100
     
-# 搜索，安装hexo-generator-searchdb
+# Site search: requires hexo-generator-searchdb
 search:
   path: search.xml
   field: post
@@ -125,7 +126,7 @@ baidusitemap:
 aplayer:
   meting: true
 
-# hexo-admin authentification
+# hexo-admin authentication
 admin:
   deployCommand: "./hexo-deploy.sh"
   username: sheen
